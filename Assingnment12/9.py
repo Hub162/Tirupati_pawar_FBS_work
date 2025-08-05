@@ -1,0 +1,6 @@
+s = input("Enter a string: ")
+words = s.split()
+num_words = len(words)
+num_chars = len(s)
+print("Words:", num_words)
+print("Characters:", num_chars)
